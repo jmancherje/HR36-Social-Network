@@ -3,6 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <title>HR36 Social Directory</title>
+  <style>
+    li {
+      width: 300px;
+      border: 1px solid black;
+      padding-left: 20px;
+    }
+  </style>
 
 </head>
 <body>
@@ -14,7 +21,9 @@
 
     <ul class="main-list">
       <li class="list-item" ng-repeat="student in people">
-        {{student.name}}
+        <p>{{student.name}}</p>
+        <p>{{student.location}}</p>
+        <p>{{student.info}}</p>
       </li>
     </ul>
   </div>
