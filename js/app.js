@@ -1,18 +1,16 @@
-angular.module('app', ['app.list']);
+angular.module('app', ['app.list', 'ngRoute'])
 
-// // add controller reference
-// .controller('list-controller', function ($scope) {
-//   $scope.people = [
-//     {
-//       "name":"John Doe",
-//       "location":"San Francisco, California",
-//       "info":"Likes to do stuff"
-//     },
-//     {
-//       "name":"Jane Someone",
-//       "location":"New York, New York",
-//       "info":"Hates to do stuff"
-//     }
-//   ]
-// });
-// // add route provider
+// add route provider
+
+.config(function ($routeProvider, $httpProvider) {
+  $routeProvider
+    .when('/list', {
+      templateUrl: '/templates/list.html',
+      controller: 'ListController'
+    })
+    .when('/person', {
+      templateUrl: '/templates/person.html',
+      controller: 'PersonController'
+    })
+    .otherwise('/links');
+});
