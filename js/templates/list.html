@@ -3,11 +3,12 @@
     <input type="text" ng-model="filter" placeholder="filter student list">
     <ul class="main-list">
       <li class="list-item fade" ng-repeat="student in students | filter:filter">
-        <a href="/#person/:{{$index}}">
+        <a href="/#person/{{$index}}">
 <!--         <img src="http://www.html.am/images/samples/remarkables_queenstown_new_zealand-300x225.jpg" alt="Photo of the Remarkables mountain range in Queenstown, New Zealand." class="GeneratedImage"> -->
-<img class="portrait" src="/images/{{student.img_name}}.jpg" alt="portrait of {{student.name}}">
+<img class="portrait" ng-src="/images/{{student.img_name}}.jpg" alt="portrait of {{student.name}}">
         <h2>{{student.name}}</h2>
         <h4>{{student.location}}</h4>
+        <p>{{student.info}}</p>
         </a>
       </li>
     </ul>
