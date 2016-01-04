@@ -12,6 +12,12 @@
     ul {
       list-style: none;
     }
+    img {
+      float: right;
+    }
+    img.GeneratedImage {
+    width:100px;height:70px;margin:10px;border-width:6px;border-color:#000000;border-style:solid;
+    }
   </style>
 
 </head>
@@ -23,7 +29,8 @@
     <input type="text" ng-model="filter">
     <ul class="main-list">
       <li class="list-item" ng-repeat="student in people | filter:filter">
-        <p>{{student.name}}</p>
+        <img src="http://www.html.am/images/samples/remarkables_queenstown_new_zealand-300x225.jpg" alt="Photo of the Remarkables mountain range in Queenstown, New Zealand." class="GeneratedImage">
+        <h2>{{student.name}}</h2>
         <p>{{student.location}}</p>
         <p>{{student.info}}</p>
       </li>
