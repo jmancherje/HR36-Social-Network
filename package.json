@@ -1,0 +1,17 @@
+{
+  "name": "mvp",
+  "version": "1.0.0",
+  "description": "hr36 social-directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "author": "justin mancherje",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.4.8"
+  }
+}
