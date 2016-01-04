@@ -2,11 +2,11 @@
     <!-- filter list -->
     <input type="text" ng-model="filter">
     <ul class="main-list">
-      <li class="list-item fade" ng-repeat="student in people | filter:filter">
-        <img src="http://www.html.am/images/samples/remarkables_queenstown_new_zealand-300x225.jpg" alt="Photo of the Remarkables mountain range in Queenstown, New Zealand." class="GeneratedImage">
+      <li class="list-item fade" ng-repeat="student in students | filter:filter">
+<!--         <img src="http://www.html.am/images/samples/remarkables_queenstown_new_zealand-300x225.jpg" alt="Photo of the Remarkables mountain range in Queenstown, New Zealand." class="GeneratedImage"> -->
+<img class="portrait" src="/images/{{student.img_name}}.jpg" alt="portrait of {{student.name}}">
         <h2>{{student.name}}</h2>
-        <p>{{student.location}}</p>
-        <p>{{student.info}}</p>
+        <h4>{{student.location}}</h4>
       </li>
     </ul>
   </div>

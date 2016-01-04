@@ -15,7 +15,12 @@ ul {
 img {
   float: right;
 }
-img.GeneratedImage {
-  width:100px;height:70px;margin:10px;border-width:3px;border-color:#000000;border-style:solid;
+img.GeneratedImage, img.portrait{
+  width:100px;
+  height:70px;
+  margin:10px;
+  border-width:3px;
+  border-color:#000000;
+  border-style:solid;
   border-radius: 20px;
 }
