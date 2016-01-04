@@ -17,10 +17,14 @@ input {
 ul {
   list-style: none;
 }
-img {
+img.listimg {
   float: right;
 }
-img.GeneratedImage, img.portrait{
+img.detailview {
+  float: right;
+  border-radius: 20px;
+}
+img.GeneratedImage, img.portrait {
   width:100px;
   height:70px;
   margin:10px;
@@ -32,4 +36,12 @@ img.GeneratedImage, img.portrait{
 a {
   text-decoration: none;
   color: inherit;
+}
+div.detail-container {
+  width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+  border: 3px solid darkgrey;
+  border-radius: 20px;
+  background-color: beige;
 }
