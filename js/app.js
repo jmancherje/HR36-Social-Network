@@ -7,7 +7,7 @@ angular.module('app', ['app.list', 'app.person', 'ngRoute', 'ngAnimate'])
       templateUrl: './js/templates/list.html',
       controller: 'ListController'
     })
-    .when('/person', {
+    .when('/person/:itemId', {
       templateUrl: './js/templates/person.html',
       controller: 'PersonController'
     })
