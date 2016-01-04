@@ -1,4 +1,5 @@
 # Project Name #
+Get to Know HR36
 
 <!-- 
 > This material was originally posted [here](http://www.quora.com/What-is-Amazons-approach-to-product-development-and-product-management). It is reproduced here for posterities sake.
@@ -18,27 +19,35 @@ Once the project moves into development, the press release can be used as a touc
  
 ## Heading ##
   > Name the product in a way the reader (i.e. your target customers) will understand.
+  Know HR36
 
 ## Sub-Heading ##
   > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+  The market is HR36 students who want to easily get information about their classmates
 
 ## Summary ##
   > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+  Easily find pictures, information, and online presence for any member of HR36
 
 ## Problem ##
   > Describe the problem your product solves.
-
+  There are a lot of people in HR36, it's hard to remember everyones name, where they're from, their interests etc. Now you can easily find them and learn about them in one place.
 ## Solution ##
   > Describe how your product elegantly solves the problem.
+  It is a one stop shop for all information and links regarding the students
 
 ## Quote from You ##
   > A quote from a spokesperson in your company.
+  Know your classmates, get a deeper connection with your social and future professional network.
 
 ## How to Get Started ##
   > Describe how easy it is to get started.
+  Just open the app and start searching.
 
 ## Customer Quote ##
   > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+  I could never remember anything about anyone in my cohort. Now I can easily find them, learn about them, find their social networks, and organize them into groups.
 
 ## Closing and Call to Action ##
   > Wrap it up and give pointers where the reader should go next.
+  Get to know your cohort, go to Know HR36 and find all the information you need about your classmates.
