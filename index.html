@@ -28,26 +28,9 @@
 </head>
 <body>
 
-  <div class="list-container" ng-controller="ListController">
-
-    <!-- filter list -->
-    <input type="text" ng-model="filter">
-    <ul class="main-list">
-      <li class="list-item" ng-repeat="student in people | filter:filter">
-        <img src="http://www.html.am/images/samples/remarkables_queenstown_new_zealand-300x225.jpg" alt="Photo of the Remarkables mountain range in Queenstown, New Zealand." class="GeneratedImage">
-        <h2>{{student.name}}</h2>
-        <p>{{student.location}}</p>
-        <p>{{student.info}}</p>
-      </li>
-    </ul>
+  <div ng-view>
+    
   </div>
-
-
-  
-
-
-
-
 
   <!-- libraries -->
   <script src="node_modules/angular/angular.min.js"></script>
@@ -56,6 +39,7 @@
   <!-- app files -->
   <script src="js/app.js"></script>
   <script src="js/controllers/listController.js"></script>
+  <script src="js/controllers/personController.js"></script>
 
 </body>
 </html>

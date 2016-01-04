@@ -1,16 +1,15 @@
-angular.module('app', ['app.list', 'ngRoute'])
+angular.module('app', ['app.list', 'app.person', 'ngRoute'])
 
-// add route provider
-
+// routing:
 .config(function ($routeProvider, $httpProvider) {
   $routeProvider
     .when('/list', {
-      templateUrl: '/templates/list.html',
+      templateUrl: './js/templates/list.html',
       controller: 'ListController'
     })
     .when('/person', {
-      templateUrl: '/templates/person.html',
+      templateUrl: './js/templates/person.html',
       controller: 'PersonController'
     })
-    .otherwise('/links');
+    .otherwise('/list');
 });
