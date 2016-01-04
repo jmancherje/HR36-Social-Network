@@ -1,4 +1,4 @@
-angular.module('app.list', [])
+angular.module('app.list', ['ngAnimate'])
 
 .controller('ListController', function ($scope) {
   $scope.people = [
@@ -25,7 +25,7 @@ angular.module('app.list', [])
     {
       "name":"Sir Francis Columbo",
       "location":"Madrid, Spain",
-      "info":"Likes to explore on boats"
+      "info":"Likes sail boats"
     },
   ]
 });

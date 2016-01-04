@@ -1,0 +1,21 @@
+li {
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding-left: 20px;
+  background-color: white;
+  transition: all .2s ease-in-out;
+}
+li:hover {
+  transform: scale(1.1);
+}
+ul {
+  list-style: none;
+}
+img {
+  float: right;
+}
+img.GeneratedImage {
+  width:100px;height:70px;margin:10px;border-width:3px;border-color:#000000;border-style:solid;
+  border-radius: 20px;
+}

@@ -1,4 +1,4 @@
-angular.module('app', ['app.list', 'app.person', 'ngRoute'])
+angular.module('app', ['app.list', 'app.person', 'ngRoute', 'ngAnimate'])
 
 // routing:
 .config(function ($routeProvider, $httpProvider) {
