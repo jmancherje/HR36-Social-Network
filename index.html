@@ -9,18 +9,20 @@
       border: 1px solid black;
       padding-left: 20px;
     }
+    ul {
+      list-style: none;
+    }
   </style>
 
 </head>
 <body>
-  <input type="text" ng-model="name">
-  <h2>Hello, {{name}}</h2>
 
   <div class="list-container" ng-controller="ListController">
-    {{people}}
 
+    <!-- filter list -->
+    <input type="text" ng-model="filter">
     <ul class="main-list">
-      <li class="list-item" ng-repeat="student in people">
+      <li class="list-item" ng-repeat="student in people | filter:filter">
         <p>{{student.name}}</p>
         <p>{{student.location}}</p>
         <p>{{student.info}}</p>
