@@ -9,6 +9,11 @@ li {
 li:hover {
   transform: scale(1.1);
 }
+input {
+  margin-left: 50px;
+  padding: 10px;
+  border-radius: 10px;
+}
 ul {
   list-style: none;
 }
