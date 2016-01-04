@@ -1,0 +1,22 @@
+{
+  "name": "mvp",
+  "description": "hr36 social-directory",
+  "main": "index.js",
+  "authors": [
+    "justin mancherje"
+  ],
+  "license": "MIT",
+  "private": true,
+  "keywords": [
+    "angular"
+  ],
+  "homepage": "https://github.com/jmancherje/2015-11-mvp",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
