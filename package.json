@@ -4,7 +4,8 @@
   "description": "hr36 social-directory",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "nodemon server/server.js"
   },
   "keywords": [
     "angular"
@@ -12,5 +13,7 @@
   "author": "justin mancherje",
   "license": "MIT",
   "dependencies": {
+    "express": "^4.13.3",
+    "nodemon": "^1.8.1"
   }
 }
