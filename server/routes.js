@@ -17,18 +17,18 @@ module.exports = function (app, express) {
     var userId = newUser._id;
     console.log(userId);
 
-    User.find({name: newUser.name}, function (err, users) {
-      if(users.length > 0){
-        userId = users[0]._id;
+    User.findOne({name: newUser.name}, function (err, user) {
+      if(user){
         console.log('user already exists, not saving');
-      } else{
+        res.send(200, user);
+      } else {
         newUser.save(function(){
           console.log('saved ' + newUser.name + ' to db');
+          res.send(200, newUser);
         });
       }
     });
 
-    res.send(200, userId);
   });
 
   app.get('/comments', function (req, res) {
@@ -44,9 +44,29 @@ module.exports = function (app, express) {
     res.sendStatus(200);
   });
 
+
+
+  // FRIENDS:
   app.post('/friends', function (req, res) {
     console.log('Friend request recieved');
+    console.log(req.body.friend);
+    console.log(req.body.currentUser);
 
+    User.findOne({name: req.body.currentUser}, function (err, user) {
+      user.friends.push(req.body.friend);
+      user.save(function (err) {
+        if (err) {
+          console.log('error updating friends list ', err);
+        }
+      });
+    });
     res.sendStatus(200);
   });
+
+  app.get('/friends', function (req, res) {
+    User.findOne()
+    res.send(200, friends);
+  });
+
+
 };

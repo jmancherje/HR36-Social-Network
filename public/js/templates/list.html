@@ -16,7 +16,7 @@
       <input id="filter-input" type="text" class="filter-input" ng-model="filter.name" placeholder="filter student list">
       <button class="logout-button" ng-click="logout()" >Logout</button><br>
       <label for="friendsFilter">Friends:</label>
-      <input type="checkbox" id="friendsFilter">
+      <input ng-model="friendsFilter" type="checkbox" id="friendsFilter" ng-click="filterByFriends()">
       <label style="margin-left:15px"for="reverseFilter">Reverse:</label>
       <input ng-model="direction" type="checkbox" id="reverseFilter" ng-click="reverse()">
     </form>
