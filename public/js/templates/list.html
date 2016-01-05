@@ -23,7 +23,8 @@
 
     <ul class="main-list">
       <li class="list-item" ng-repeat="student in students | filter:filter">
-        <a ng-href="/#person/{{ students.indexOf(student) }}">
+        <!-- <a ng-href="/#person/{{ students.indexOf(student) }}"> -->
+        <a ng-href="/#person/{{ student.id }}">
           <img class="portrait listimg" ng-src="/images/{{student.img_name}}.jpg" alt="portrait of {{student.name}}">
           <h2>{{student.name}}</h2>
           <h4>{{student.location}}</h4>

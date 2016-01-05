@@ -9,15 +9,18 @@ angular.module('app.list', ['ngAnimate'])
 
   $scope.user = sessionStorage.getItem('username');
   $scope.userId = sessionStorage.getItem('userId');
+  $scope.friends = JSON.parse(sessionStorage.getItem('friends')); 
 
   $scope.reverse = function () {
     $scope.students = $scope.students.reverse();
   };
 
   $scope.filterByFriends = function () {
+    console.log('filtering by friends..');
+    console.log('$scope.friends= ', $scope.friends);
     var friends = [];
     for (var i=0; i<$scope.allStudents.length; i++) {
-      if ($scope.friends.indexOf(i) > -1) {
+      if ($scope.friends.indexOf(i.toString()) > -1) {
         friends.push($scope.allStudents[i]);
       }
     }

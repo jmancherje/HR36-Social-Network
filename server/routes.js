@@ -49,8 +49,7 @@ module.exports = function (app, express) {
   // FRIENDS:
   app.post('/friends', function (req, res) {
     console.log('Friend request recieved');
-    console.log(req.body.friend);
-    console.log(req.body.currentUser);
+    console.log('current username: ', req.body.currentUser);
 
     User.findOne({name: req.body.currentUser}, function (err, user) {
       user.friends.push(req.body.friend);
