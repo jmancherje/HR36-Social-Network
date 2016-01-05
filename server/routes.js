@@ -1,4 +1,6 @@
 var mongoose = require('mongoose');
+var userSchema = require('./models/users.js');
+var commentsSchema = require('./models/comments.js');
 
 module.exports = function (app, express) {
   app.get('/users', function (req, res) {
@@ -11,7 +13,9 @@ module.exports = function (app, express) {
     console.log('Post request to /users');
     // send username to database IF not already there
     // set sessionStorage('id') to equal _ID in database
-    res.send(200)
+    var newUser = mongoose.model('User', userSchema);
+    console.log('new user defined: ', newUser.name);
+    res.sendStatus(200)
   });
 
   app.get('/comments', function (req, res) {
@@ -24,6 +28,6 @@ module.exports = function (app, express) {
     console.log('Post request to /comments');
     // send comment to database using session
     // store user as _ID from session storage
-    res.send(200);
+    res.sendStatus(200);
   });
 };

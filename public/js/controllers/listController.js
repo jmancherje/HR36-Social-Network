@@ -1,16 +1,5 @@
 angular.module('app.list', ['ngAnimate'])
 
-// .factory('listService', function ($http) {
-//   var login = function (username) {
-//     $http.post('/users', username)
-//         .then(function (res) {
-//           sessionStorage.setItem('key', 'value');
-//         }, function () {
-//           console.log('error in posting to users');
-//         })
-//   }
-// })
-
 .controller('ListController', function ($scope, $http) {
   $http.get('js/students.json').success(function (data) {
     $scope.students = data;

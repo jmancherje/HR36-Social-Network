@@ -12,7 +12,7 @@
     <button ng-show="user != null" ng-click="logout()" >Logout</button><br>
 
     <ul class="main-list">
-      <li class="list-item fade" ng-repeat="student in students | filter:filter | limitTo:5">
+      <li class="list-item fade" ng-repeat="student in students | filter:filter">
         <a ng-href="/#person/{{ students.indexOf(student) }}">
         <img class="portrait listimg" ng-src="/images/{{student.img_name}}.jpg" alt="portrait of {{student.name}}">
         <h2>{{student.name}}</h2>

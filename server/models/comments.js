@@ -7,5 +7,6 @@ var commentSchema = mongoose.Schema({
     ref: 'User'
   }
 });
+
 var Comment = mongoose.model('Comment', commentSchema);
 module.exports = Comment;
