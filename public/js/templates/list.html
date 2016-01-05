@@ -2,8 +2,15 @@
 
   <div class="container">
     <h1>Find Your Classmates</h1>
+
+    <!-- login -->
+    <input ng-show="user == null" type="text" class="login" placeholder="username" ng-model="username" />
+    <button ng-show="user == null" ng-click="login()">Login</button><br>
+
     <!-- filter list -->
-    <input type="text" ng-model="filter.name" placeholder="filter student list">
+    <input ng-show="user != null" type="text" class="filter-input" ng-model="filter.name" placeholder="filter student list">
+    <button ng-show="user != null" ng-click="logout()" >Logout</button><br>
+
     <ul class="main-list">
       <li class="list-item fade" ng-repeat="student in students | filter:filter | limitTo:5">
         <a ng-href="/#person/{{ students.indexOf(student) }}">
