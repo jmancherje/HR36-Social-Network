@@ -7,6 +7,10 @@ angular.module('app.list', ['ngAnimate'])
 
   $scope.user = sessionStorage.getItem('username');
 
+  $scope.reverse = function () {
+    $scope.students = $scope.students.reverse();
+  };
+
   $scope.login = function () {
     var newUser = {name: $scope.username}
     $http.post('/users', newUser)
