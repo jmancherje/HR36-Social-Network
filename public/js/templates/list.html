@@ -6,8 +6,8 @@
     <input type="text" ng-model="filter.name" placeholder="filter student list">
     <ul class="main-list">
       <li class="list-item fade" ng-repeat="student in students | filter:filter | limitTo:5">
-        <a href="/#person/{{ students.indexOf(student) }}">
-        <img class="portrait listimg" ng-src="/images/{{student.img_name}}.jpg" alt="portrait of {{student.name}}">
+        <a href="/public/#person/{{ students.indexOf(student) }}">
+        <img class="portrait listimg" ng-src="/public/images/{{student.img_name}}.jpg" alt="portrait of {{student.name}}">
         <h2>{{student.name}}</h2>
         <h4>{{student.location}}</h4>
         </a>
