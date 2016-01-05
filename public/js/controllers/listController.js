@@ -15,9 +15,13 @@ angular.module('app.list', ['ngAnimate'])
     var newUser = {name: $scope.username}
     $http.post('/users', newUser)
     .then(function (res) {
+      console.log(res.data);
       sessionStorage.setItem('username', $scope.username);
+      sessionStorage.setItem('userId', res.data);
       $scope.user = sessionStorage.getItem('username');
-      console.log('username stored in session ');
+      $scope.userId = sessionStorage.getItem('userId');
+      console.log('username stored in session as: ', $scope.user);
+      console.log('userId stored in session as: ', $scope.userId);
     }, function () {
       console.log('error in posting to users');
     })

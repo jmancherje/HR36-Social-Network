@@ -14,9 +14,12 @@ module.exports = function (app, express) {
     // send username to database IF not already there
     // set sessionStorage('id') to equal _ID in database
     var newUser = new User({name: req.body.name})
+    var userId = newUser._id;
+    console.log(userId);
 
     User.find({name: newUser.name}, function (err, users) {
       if(users.length > 0){
+        userId = users[0]._id;
         console.log('user already exists, not saving');
       } else{
         newUser.save(function(){
@@ -25,7 +28,7 @@ module.exports = function (app, express) {
       }
     });
 
-    res.sendStatus(200)
+    res.send(200, userId);
   });
 
   app.get('/comments', function (req, res) {
@@ -38,6 +41,12 @@ module.exports = function (app, express) {
     console.log('Post request to /comments');
     // send comment to database using session
     // store user as _ID from session storage
+    res.sendStatus(200);
+  });
+
+  app.post('/friends', function (req, res) {
+    console.log('Friend request recieved');
+
     res.sendStatus(200);
   });
 };
