@@ -6,6 +6,7 @@ var bodyParser = require('body-parser');
 var fs = require('fs');
 
 app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.json());
 
 // DB schemas:
 var kittySchema = require('./models/kitty.js');

@@ -4,20 +4,32 @@
     <h1>Find Your Classmates</h1>
 
     <!-- login -->
-    <input ng-show="user == null" type="text" class="login" placeholder="username" ng-model="username" />
-    <button ng-show="user == null" ng-click="login()">Login</button><br>
+    <form ng-show="user == null">
+      <label for="login-input">Login:</label>
+      <input id="login-input" type="text" class="login" placeholder="username" ng-model="username" />
+      <button class="login-button" ng-click="login()">Login</button><br>
+    </form>
 
     <!-- filter list -->
-    <input ng-show="user != null" type="text" class="filter-input" ng-model="filter.name" placeholder="filter student list">
-    <button ng-show="user != null" ng-click="logout()" >Logout</button><br>
+    <form ng-show="user != null">
+      <label for="filter-input">Filter:</label>
+      <input id="filter-input" type="text" class="filter-input" ng-model="filter.name" placeholder="filter student list">
+      <button class="logout-button" ng-click="logout()" >Logout</button><br>
+    </form>
 
     <ul class="main-list">
-      <li class="list-item fade" ng-repeat="student in students | filter:filter">
+      <li class="list-item" ng-repeat="student in students | filter:filter">
         <a ng-href="/#person/{{ students.indexOf(student) }}">
-        <img class="portrait listimg" ng-src="/images/{{student.img_name}}.jpg" alt="portrait of {{student.name}}">
-        <h2>{{student.name}}</h2>
-        <h4>{{student.location}}</h4>
+          <img class="portrait listimg" ng-src="/images/{{student.img_name}}.jpg" alt="portrait of {{student.name}}">
+          <h2>{{student.name}}</h2>
+          <h4>{{student.location}}</h4>
         </a>
       </li>
     </ul>
   </div>
+
+
+<!-- using redirect function instead -->
+<!-- 
+      <li class="list-item" ng-repeat="student in students | filter:filter" ng-click="redirect(students.indexOf(student))">
+ -->

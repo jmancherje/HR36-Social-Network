@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-var userSchema = require('./models/users.js');
+var User = require('./models/users.js');
 var commentsSchema = require('./models/comments.js');
 
 module.exports = function (app, express) {
@@ -13,8 +13,18 @@ module.exports = function (app, express) {
     console.log('Post request to /users');
     // send username to database IF not already there
     // set sessionStorage('id') to equal _ID in database
-    var newUser = mongoose.model('User', userSchema);
-    console.log('new user defined: ', newUser.name);
+    var newUser = new User({name: req.body.name})
+
+    User.find({name: newUser.name}, function (err, users) {
+      if(users.length > 0){
+        console.log('user already exists, not saving');
+      } else{
+        newUser.save(function(){
+          console.log('saved ' + newUser.name + ' to db');
+        });
+      }
+    });
+
     res.sendStatus(200)
   });
 
