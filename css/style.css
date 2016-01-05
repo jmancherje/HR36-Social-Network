@@ -3,16 +3,18 @@ li {
   border: 1px solid black;
   border-radius: 20px;
   padding-left: 20px;
-  background-color: white;
+  background-color: beige;
   transition: all .2s ease-in-out;
 }
 li:hover {
   transform: scale(1.1);
 }
 input {
-  margin-left: 50px;
-  padding: 10px;
+  margin-left: 90px;
+  padding: 7px;
   border-radius: 10px;
+  font-size: 1.2em;
+  text-align: center;
 }
 ul {
   list-style: none;
@@ -44,4 +46,11 @@ div.detail-container {
   border: 3px solid darkgrey;
   border-radius: 20px;
   background-color: beige;
+}
+.container {
+  width: 400px;
+  margin: 0 auto;
+}
+.container > h1 {
+  text-align: center;
 }
