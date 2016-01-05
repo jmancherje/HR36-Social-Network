@@ -72,7 +72,7 @@ label {
 .logout-button {  
   background-color: #B75B5B;
 }
-.friend-button {
+.friend-button, .return-button {
   width: 70px;
   margin-left: 13px;
   height: 50px;
@@ -83,11 +83,29 @@ label {
 }
 .return-button {
   float: right;
-  width: 70px;
-  margin-left: 13px;
+}
+.comment-button {
+  display: block;
+  width: 80px;
   height: 50px;
-  font-size: 15px;
+  margin: 0 auto;
   border-radius: 5px;
-  background-color: #3EA625; 
+  background-color: #3EA625;
   color: white;
+  font-size: 15px;
+}
+div.comments {
+  width: 600px;
+  margin: 20px auto;
+}
+textarea {
+  border-radius: 20px;
+  font-size: 1.2em;
+  padding: 20px;
+}
+.comments > label,textarea {
+  margin-left: 170px;
+}
+.comments > label {
+  padding: 30px;
 }

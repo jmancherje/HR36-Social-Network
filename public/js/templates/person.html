@@ -10,5 +10,13 @@
   <a href="/#list"><button class="return-button">Return</button></a>
 </div>
 
+<div class="comments">
+  
+  <label for="enter-comment">Leave {{student.name.split(' ')[0]}} a message!</label><br>
+  <textarea id="enter-comment" cols="20" rows="3" placeholder="enter message here"></textarea>
+  <button class="comment-button" ng-click="postMessage()">Post Message</button>
+
+</div>
+
 <!-- TODO -->
 <!-- Add a section to add comments: -->
