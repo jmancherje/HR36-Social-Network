@@ -1,3 +1,5 @@
+Mini Social Network for Hack Reactor 36 cohort
+
 1. npm install
 2. bower install
 3. npm start
