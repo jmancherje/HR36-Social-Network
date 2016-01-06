@@ -18,8 +18,8 @@
 
   <div class="messages">
     <ul class="comment-ul">
-      <li class="comment-li" ng-repeat="comment in comments">
-        <p><span><strong>{{comment.user}}:</strong></span> {{comment.comment}}</p>
+      <li class="comment-li" ng-repeat="comment in comments | filter: { pageId: studentId }">
+        <p><span><strong>{{comment.commentingUser}}:</strong></span> {{comment.text}}</p>
       </li>
     </ul>
   </div>

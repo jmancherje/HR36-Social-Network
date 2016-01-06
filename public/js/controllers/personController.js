@@ -8,6 +8,11 @@ angular.module('app.person', [])
     $scope.student = data[$scope.studentId];
   });
 
+  $http.get('/comments').success(function (data) {
+    console.log(data);
+    $scope.comments = data.slice();
+  });
+
   $scope.addFriend = function () {
 //******* need to get friends from db on login as well. into session storage immediately
 
@@ -48,17 +53,28 @@ angular.module('app.person', [])
     }
   };
 
-  $scope.comments = [{"user":"Justin", "comment":"Hi dude"}, {"user":"Albert", "comment":"Hi dude"}, {"user":"Anthony", "comment":"Hi dude"}];
-
   $scope.postMessage = function () {
     if ($scope.comment.length === 0) {
       return;
     }
-    $scope.currentUser = sessionStorage.getItem('user');
+
+    var user = sessionStorage.getItem('username');
+
     var newComment = {
-      "user": $scope.currentUser,
-      "comment": $scope.comment
+      "commentingUser": user,
+      "text": $scope.comment,
+      "pageId": $scope.studentId
     };
+
+    $http.post('/comments', newComment).success(function (data) {
+      console.log($scope.studentId);
+      console.log('successful post to comments');
+      $http.get('/comments').success(function (data) {
+        console.log(data);
+        $scope.comments = data.slice();
+      });
+      $scope.comment = '';
+    });
   };
 
 });

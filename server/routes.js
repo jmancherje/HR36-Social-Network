@@ -1,5 +1,6 @@
 var mongoose = require('mongoose');
 var User = require('./models/users.js');
+var Comment = require('./models/comments.js');
 var commentsSchema = require('./models/comments.js');
 
 module.exports = function (app, express) {
@@ -32,17 +33,31 @@ module.exports = function (app, express) {
   });
 
   app.get('/comments', function (req, res) {
-    mongoose.model('Comment').find(function (err, comments) {
-      res.send(comments);
+    Comment.find(function (err, comments) {
+      res.send(200, comments);
     });
   });
 
   app.post('/comments', function (req, res) {
-    console.log('Post request to /comments');
+
     // send comment to database using session
-    // store user as _ID from session storage
+    console.log('post to comments: ', req.body);
+    var comment = new Comment({
+      text: req.body.text, 
+      commentingUser: req.body.commentingUser,
+      pageId: req.body.pageId
+    });
+
+    comment.save();
+    // Comment.find({pageId: req.body.pageId}, function (err, comments) {
+    //   res.send(200, comments);
+    // });
+
     res.sendStatus(200);
+    // store user as _ID from session storage
   });
+
+
 
 
 

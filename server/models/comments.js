@@ -2,10 +2,8 @@ var mongoose = require('mongoose');
 
 var commentSchema = mongoose.Schema({
   text: String,
-  user: {
-    type: mongoose.Schema.ObjectId,
-    ref: 'User'
-  }
+  pageId: Number,
+  commentingUser: String
 });
 
 var Comment = mongoose.model('Comment', commentSchema);
