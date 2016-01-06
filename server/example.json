@@ -1,0 +1,268 @@
+[
+  {
+    "name":"AJ Salaudeen",
+    "id":1,
+    "img_name":"AJ_Salaudeen",
+    "location":"Baltimore, Maryland",
+    "info":"I love hiking and camping with my dogs and hubby. I have two Australian shepherds, Seamus & Fitz. I love traveling and learning about other peoples' cultures. My favorite trip I have taken was to Maui (Mahalo!). So far I love California and have enjoyed weekend trips to Lake Tahoe and Big Sur."
+  },
+  {
+    "name":"Albert Tsou",
+    "id":2,
+    "img_name":"Albert_Tsou",
+    "location":"Boston, Massachusetts",
+    "info":"I did a bunch of finance internships and convinced my employers to send me to Shanghai twice! I'm still exploring but I'm interested in edtech, fintech, and visualization. No preference between front / back end yet."
+  },
+  {
+    "name":"Anthony Chung",
+    "id":3,
+    "img_name":"Anthony_Chung",
+    "location":"Oakland, California",
+    "info":"Graduated from Rice as a History and Political Science major. All about the fuzzy feels. Joined Teach For America Oakland and then spent a year working for a management consulting firm. Path to HR was circuitous, but I couldn't be more excited to embark on this journey with YOU. YES YOU. ALL OF YOUSE. Imgur. Bouldering (Trynna get to V4). Powerlifting. The quantitative self. Startups and entrepreneurship. I've transitioned from playing League of Legends to watching and talking about League of Legends. Geek out on that any day. If there was a synonym for life-hacking that didn't carry the cliche it does now, that too."
+  },
+  {
+    "name":"Ben Balaran",
+    "id":4,
+    "img_name":"Ben_Balaran",
+    "location":"Los Angeles, California",
+    "info":"I have been working in business development and strategy. Most recently, I worked for Google Maps’ top partner, developing business applications based on the Google Maps platform. While working on the business side was great, I’m really drawn to development and the technical aspects, and I applied to HR to pursue it as a career. I am a hopeless gearhead/car lover! I love working with my hands and solving problems, especially when it comes to my old Ford Bronco. I try to get outside as much as possible, whether it’s surfing, hiking or just picking a direction and seeing where the road goes. I also love discovering new music and food, and I can’t wait to explore San Francisco and find some."
+  },
+  {
+    "name":"Brian Sweeney",
+    "id":5,
+    "img_name":"Brian_Sweeney",
+    "location":"Valley Stream, New York",
+    "info":"Full name Brian Sweeney. Growing up everyone called me Sweeney, though since graduating college people seem to be gravitating more towards Brian. I don't really care, either is fine. After going to a liberal arts college in Florida (Rollins), I took a tech support job for a legal software company. After being accepted to the program in September, I quit that job, and have spent the last month of so relaxing and prepping for the course. I have been an ocean lifeguard every summer for the past 6 years. Luckily there is an option to only work on the weekends, so even once I got a full time job I was still able to live on the beach 3 nights/2days a week. I grew up in an around the water and enjoy sailing my boat, scuba diving, and pretending I can surf. "
+  },
+  {
+    "name":"Byron Rau",
+    "id":6,
+    "img_name":"Byron_Rau",
+    "location":"Millbrae, California",
+    "info":"I was working for the last 8 years doing tech support/IT, specializing in enterprise wireless and mobile applications, at a medical device company in San Jose. Just enjoy hanging out in the bay area, trying all the great restaurants, food trucks, and boba places ;-) Recently I've been traveling to/from Milwaukee while my girlfriend is attending grad school there.  The weather out there is something else!  Also proud to be alive to see the Warriors win an NBA championship!"
+  },
+  {
+    "name":"Christian Panarrieta",
+    "id":7,
+    "img_name":"Cristian_Penarrieta",
+    "location":"Lima, Peru",
+    "info":"I've been working 3 years as a software developer for a company called Cignium Technologies, This is my last week of work and then I'll go to the beach with my wife to relax and say good bye. I enjoy to eat delicious food, when I was younger I wanted to be a chef, I still cook for my family, specially for my wife because she doesn't know hot to cook. I love doing my own BBQ with real coal. Once I almost fire my apartment while doing a BBQ in the terrace."
+  },
+  {
+    "name":"Dan Frehner",
+    "id":8,
+    "img_name":"Dan_Frehner",
+    "location":"Chino, California",
+    "info":"I grew up in Southern California(Chino… not Chico) and attended college in Riverside, Ca(majored in CS, which didn’t last long and moved to photography) In the middle of college I wanted to live in national park and did. I came for Photography but stayed for everything else. I’ve spent the last 8 years living in Jackson Hole, Wy and working in Grand Teton and Yellowstone national parks as a guide. Everything from kayaks to rafts to hiking and skiing. Excited to be living in California again, especially SF. I am a huge outdoor nerd, I have spent time in most National Parks in the Western US. I've guided a raft down the Colorado river through the Grand Canyon twice. And I am excited to start this next adventure!"
+  },
+  {
+    "name":"David Song",
+    "id":9,
+    "img_name":"David_Song",
+    "location":"San Bruno, California",
+    "info":"Product management covering web, mobile apps and games. Love outdoor sports. Snowboarding, hiking, swimming, cycling, and running. I'm looking for a crossfit gym near HR that fits our schedule. Big fan of Broadway (Hamilton!) and movies (heads-up move by HR to schedule our second break so close to Star Wars). Dig live raconteuring, photography, art, and design. Love to travel... flew all over the Northern hemisphere with a Jet Blue All You Can Jet pass."
+  },
+  {
+    "name":"Devin Pastoor",
+    "id":10,
+    "img_name":"Devin_Pastoor",
+    "location":"Washington, DC",
+    "info":"My academic journey took me through a BS in biochem (UNC chapel hill), a masters degree in toxicology (north carolina state) and finally up to a PhD (university of maryland) in pharmacometrics - essentially I support drug development by doing modeling and simulation for dose selection, analyzing clinical trial results, and helping prepare drugs for approval around the globe! I just defended my PhD proposal (wohoo!) and have developed an algorithm to better treat babies with infections in the neonatal intensive care unit (think the babies in the isolation containers because they are so sick) and part of my objective of coming to hack reactor is to wrap that in a application clinicians can use easily from their phone or computer rather than having to go through extensive training to use it from the command line - or just not using it due to complexity :-("
+  },
+  {
+    "name":"Dima Korenblyum",
+    "id":11,
+    "img_name":"Dima_Korenblyum",
+    "location":"New York, New York",
+    "info":"Graduated this year from Baruch University with a CIS degree. Aside from school, for the past 2 years I have worked as the CTO of a NYC based web startup https://wooter.co/ (for now only offering deals in the NYC trip-state area). Ever since I beagn working on my startup I forgot what hobbies are :P . I love to travel (have visited over 20 countries and 30 states), host BBQs in my backyard, and go camping with my family/friends."
+  },
+  {
+    "name":"Eric Geniesse",
+    "id":12,
+    "img_name":"Eric_Geniesse",
+    "location":"Madison, Wisconsin",
+    "info":"Over the past four and a half years, I have been climbing the ladder at Home Depot. I started as a part-time temporary associate and worked my way up to being a department supervisor/manager on duty. After learning that the work/life balance wasn’t what I was looking for, I decided to make the leap into software development. For the last 4 months, I have been teaching myself HTML, CSS, and javaScript. Growing up, I have always been into sports and that part of me has never changed. Whenever I get the a chance, I enjoy playing basketball, volleyball, ultimate frisbee, or just about anything else that involves athletics. I also enjoy sharing good food with good friends, whether I’m at a barbecue or having dinner with my wife."
+  },
+  {
+    "name":"Erik Brown",
+    "id":13,
+    "img_name":"Erik_Brown",
+    "location":"San Francisco, California",
+    "info":"On Friday, I left my job at an edtech startup, Edthena. Before Edthena, I was a biology and chemistry teacher at Balboa High School in SF. Before teaching, I was an account manager at Google/YouTube. I'm a recovering band and drum corps nerd. I'm involved in the local music education scene as the Director of Education for the Northern California Percussion Alliance, which is a non-profit percussion circuit for scholastic and independent performance ensembles. I'm also an amateur cyclist, so you'll probably catch me out riding on Sundays when we're away from class!"
+  },
+  {
+    "name":"Gisela Kottmeier",
+    "id":14,
+    "img_name":"Gisela_Kottmeier",
+    "location":"San Francisco, California",
+    "info":"I graduated from Lowell High School in May. I spent the majority of my summer in a Android Dev Class building Pong with my friends. Following that I participated in Hack Reactors Prep class. Since summer ended, I’ve been preparing for Hack Reactor and taking some time to myself. I went to Portland to visit my aunt. Also, I went to a hackathon (HackingEDU) a couple weeks ago and won third place :) I did Martial Arts for approximately 10 years (Went to Canada for a international youth competition when I was 13). I was in Parliamentary Debate for three years and a reporter for my high schools newspaper. I love camping and haven't been able to for way too long. I know a tiny bit of Japanese."
+  },
+  {
+    "name":"Hridhya Vijayakumaran",
+    "id":15,
+    "img_name":"Hridhya_Vijayakumaran",
+    "location":"San Jose, California",
+    "info":"For the last few months, I have been self learning full stack development using Python and has built a few apps. Before that I have done some embedded software development. I have a Masters in EE from San Jose State University. I love cooking, especially baking. That is how I de-stress myself."
+  },
+  {
+    "name":"Joey Holland",
+    "id":16,
+    "img_name":"Joey_Holland",
+    "location":"Oakland, California",
+    "info":"I studied history at the University of Oregon and graduated a couple of years ago. After I graduated I worked at a staffing agency for a bit before quitting to focus on sports writing (a hobby I picked up in college) with the ultimate goal of creating my own website. However, I knew little about web development, so I began to teach myself the basics. Eventually I put my website idea on hold because of how much I loved learning about coding in general, and have spent the last six months or so trying to learn as much as I could. I’m a big sports guy. I love pretty much all of the major sports and follow them closely. I started writing for a small website that focuses on college football based in Oregon during my time in college up there, and still write for it every now and then in my spare time."
+  },
+  {
+    "name":"Joey Leung",
+    "id":17,
+    "img_name":"Joey_Leung",
+    "location":"La Canada, California",
+    "info":"Studied psychology and economics at UCSB 2014. Afterwards I worked at a car dealership and started an E-Cigarette liquid company. More recently I've put all of my time into studying for Hack Reactor having had barely any experience programming before this year.  I like to do a little bit of anything if I have the chance. I've been competing in Super Smash Bros Melee tournaments since I was twelve. When I was younger I wanted to be a chef, but now I just love trying different food. I really like listening to podcasts whether they're about storytelling or just informative(Radiolab, 99 PI, Planet Money, This American Life). Throughout my life, I've had a lot of hobbies such as Drum Corps, yoyos, remote control cars, and driving real cars."
+  },
+  {
+    "name":"Jonathan Fiamor",
+    "id":18,
+    "img_name":"Jonathan_Fiamor",
+    "location":"San Francisco, California",
+    "info":"High school in Lyon France, Community college in Orange county (the one in California), and undergrad in San Francisco. Biology with a minor in psychology. And various jobs in between. I hiked Whitney in a day, travelled 25+ countries, building a vinyl collection, loving anything with a piston in it and a compression ration of 12 or more. Also a strong advocate of analog photography!"
+  },
+  {
+    "name":"Josh Huang",
+    "id":19,
+    "img_name":"Josh_Huang",
+    "location":"Palo Alto, California",
+    "info":"I graduated back in 2013 from University of California, Irvine and went into marketing for a year. I decided that marketing just wasn't my cup of tea and moved back to Northern California and had a small stint building my own startup, which never fully came to fruition. In the process of starting my startup however, I discovered that programming was a very useful skill and I decided that I wanted to learn more. I naturally then decided to join a bootcamp. Coming from no experience, I joined and completed another bootcamp called CodingDojo. I then went on to win a couple of hackathons and continued studying on my own. I decided after some time that I wanted to do another bootcamp to further expand and solidify my skillset, so here I am at Hack Reactor. *I use to sing a lot in highschool. Ive traveled with my group to many cities in Taiwan, China, France, Netherlands, Switzerland, Belgium. One of my most memorable concerts was at the Notre Dame in paris. I have a patent for a traffic control jacket I designed. My college job was to direct traffic, and train police/traffic directors."
+  },
+  {
+    "name":"Josh Wong",
+    "id":20,
+    "img_name":"Josh_Wong",
+    "location":"Los Angeles, California",
+    "info":"For the past two years, I've been running operations at the Kairos Society, an organization that connects young entrepreneurs from over 30 countries around the world. We partnered with larger companies like Johnson & Johnson, GE and Autodesk to expose our communities to specific market opportunities in areas like mobile healthcare, robotics, and 3D printing. Before that I spent a couple of years in digital advertising running Facebook ad optimization campaigns for companies like Hearst, UPS, and Disney and setting up celebrity endorsement campaigns on Twitter and Facebook for the Kardashians, Charlie Sheen and others. Before I found an apartment in SF and I was still commuting from LA, I built myself a cardboard fort out of old Ikea boxes to sleep in on the second floor of our live/work loft office. Now that I have had time to firmly settle into the city, I love spending my free time playing tennis in Dolores Park, eating my way through the Mission, enjoying the sunset overlooking the Sutro Baths and sitting on the couch watching a silly comedy dripping with both sarcasm and heart like Broad City or You're the Worst."
+  },
+  {
+    "name":"Justin Mancherje",
+    "id":1,
+    "img_name":"Justin_Mancherje",
+    "location":"Lafayette, California",
+    "info":"I studied Biomedical Engineering at Cal Poly SLO. I worked as a medical device engineer for a while before returning to Cal Poly for grad school where I studied Industrial Engineering. After grad school I turned down a job opportunity and my girlfriend and I embarked on an (almost) year long trip around the world. During which I realized I was in the wrong industry and I wanted to get into software. Which brings me to the present, preparing for Hack Reactor. Other than tech stuff I'm also into martial arts. I was an amateur boxer when I was a teenager and into college. During my trip this last year, I rented a small bungalow on an island in Thailand for a month and a half and trained at a Muay Thai gym. I got dengue fever in Vietnam. I took my grandmother skydiving for her 87th birthday in Africa. I got in an accident on a motor bike in Thailand (twice). The last 7 days of my trip I went scuba diving 19 times."
+  },
+  {
+    "name":"Kartik Vempati",
+    "id":20,
+    "img_name":"Kartik_Vempati",
+    "location":"Santa Clara, California",
+    "info":"I just got my BS in Mechanical Engineering from UCSB in June, but wasn't enthused by full time positions and my experiences at internships made me reconsider entering that industry. I considered software engineering due to much faster paced nature of the industry and it's growing impact in society. I started by teaching myself python and played around with it on a few Udacity courses. I'm a big sports fan (Lakers, 49ers) and love going to the games. I'm also really interested in the growing role of tech in sports, especially in analytics and tools to monitor and better quantify a team or players performance."
+  },
+  {
+    "name":"Kyle Morehead",
+    "id":21,
+    "img_name":"Kyle_Morehead",
+    "location":"San Francisco, California",
+    "info":"I've been working for a startup that makes and additive for diesel to make it more environmentally friendly. I am into photography, which is spurned by the fact that I also enjoy both hiking and traveling. I love reading and writing genre fiction, and I lived in Denmark as an exchange student for a year."
+  },
+  {
+    "name":"Liza Lopez",
+    "id":22,
+    "img_name":"Liza_Lopez",
+    "location":"New York, New York",
+    "info":"I've been involved in a lot of political and educational work prior to applying to HR. I have a BA in American Studies from Yale, with a focus on Political Communities.  I did a yearlong teaching fellowship in Thailand and traveled a bunch in southeast Asia.  The last few years, I've worked at  Generation Citizen, a nonprofit in New York that runs civic engagement programs in schools. -I misspelled my name (Lisa) until I was 5. I love exploring--neighborhoods, cities, countries. Any native or new SF'ers wanting to explore, I'm game!"
+  },
+  {
+    "name":"Lyly Nguyen",
+    "id":23,
+    "img_name":"Lyly_Nguyen",
+    "location":"San Francisco, California",
+    "info":"I studied Business Management Economics at UC Santa Cruz. I've worked in education and financial services. Love learning, cooking, traveling, and meeting new people. I'm pretty clumsy and accident prone. As a child, I fell into the lagoon at the Palace of fine Arts. "
+  },
+  {
+    "name":"Marlon Ma",
+    "id":24,
+    "img_name":"Marlon_Ma",
+    "location":"Portland, Oregon",
+    "info":"I finished my master degree in materials science at University of Pennsylvania this May. After that, I taught myself web development knowledge and hoped to join an interesting company and do some interesting stuff in the US. I realized I couldn't pass around programming. Then I decided to teach myself javascript and join hack reactor. I come from China and I hope to go back to China after I do some interesting work in US in the next 3 or 5 years. I love soccer and I used to play soccer at least once per week when I was in college. But after I decided to apply for hack reactor, I usually spent whole day sitting on the couch and I really need some exercise now."
+  },
+  {
+    "name":"Max Kahn",
+    "id":25,
+    "img_name":"Max_Kahn",
+    "location":"San Francisco, California",
+    "info":"I was working at a consulting company, then left to work on a couple projects of my own and move into tech. I've gotten into baking over the last couple years! I love to experiment with my recipes, and I think there are a couple that have worked out well and that I enjoy."
+  },
+  {
+    "name":"Neeraj Kohirkar",
+    "id":26,
+    "img_name":"Neeraj_Kohirkar",
+    "location":"San Francisco, California",
+    "info":"I completed my undergraduate education at UC Berkeley and went on to work at LinkedIn for 1.5 years. I was fortunate enough to live in Chicago, New York, and San Francisco during this time and explored the realms of Project Management (with emphasis on data analysis). In the midst of all this, I was cooking up a lot of interest in the startup scene - which included working at a mobile startup while at school and trying my hand at a couple of personal web-based projects (all in collaboration with tech talent). But I wanted to build my own stuff :) so here I am! I love singing, dancing, playing the keyboard, making arrangements - everything pertaining to music. Made a couple fun music videos in college, learned classical Indian music for 6+ years, and hope to one day tie together my tech and musical interests into a fun and innovative startup."
+  },
+  {
+    "name":"Nick Kneafsey",
+    "id":27,
+    "img_name":"Nick_Kneafsey",
+    "location":"Sunnyvale, California",
+    "info":"Before Hack Reactor I was working for Apple maps, mostly on rivers, lakes, oceans and other waterbodies that nobody looks at on the app. I really enjoy playing baseball. In my day, I could throw 90 mph although I had very little ability to control it."
+  },
+  {
+    "name":"Ranjit Rao",
+    "id":28,
+    "img_name":"Ranjit_Rao",
+    "location":"San Jose, California",
+    "info":"I studied Economics at UC Davis, and for the last few years I've been working in software sales in SF; before that I was doing product marketing. My interest in software development was really spurred by my experiences working with my pre-sales engineer colleagues. I ended up becoming more interested in the nature of their job, and exploring the 1s and 0s of how the product actually worked. Over time, I've come to the realization that I want to be the one who actually helps build the software. I was born on St. Patrick's Day in Boston of all places, and 6 years ago I celebrated my birthday in Dublin. I spent the early part of this year traveling which was a great experience (Kenya/Tanzania, Dubai, Costa Rica). Big time NBA fan (Go Warriors!). Looking forward to meeting everyone soon!"
+  },
+  {
+    "name":"Rob Adelmann",
+    "id":29,
+    "img_name":"Rob_Adelmann",
+    "location":"San Francisco, California",
+    "info":"Up until late August I was working remotely as a software engineer for a company based in Boulder, CO. I left that job to take some time off before starting HR. My fiancée and I went to Burning Man, and then took an RV trip up and down the west coast with our three dogs. Since mid October, I've been back at home prepping for HR. I love music, both live and electronic. I've been DJ'ing since 1999 and going to Burning Man since 2005. I'm very active in the Burning Man community here in SF, helping run a theme camp for the last 10 years. I've DJ'd all over SF, in many US cities, and a couple countries too. I love the outdoors, especially mountain biking, camping, and snow boarding. I have a membership at Mission Cliffs climbing gym and would love to meet up and climb if anyone is interested. One more thing I'd like to add, up until now my journey as a developer has been solo, working remotely for the most part, and self-taught since graduating college. This makes the idea of learning in an immersive setting with an awesome group of people is so exciting to me. Can't wait to meet you all soon!   "
+  },
+  {
+    "name":"Ron Lapushner",
+    "id":30,
+    "img_name":"Ron_Lapushner",
+    "location":"Rishon LeZion, Isreal",
+    "info":"After serving in the army for three years as an Criminal Investigator, I have been working in Checkpoint - a cyber security company based in Tel Aviv,  I worked as a Tier 3 support engineer for the last two years, dealing with large corporation's network security. -On a mission to try every food / Meal in SF. Currently hearing Alan Watts lectures. Considering the travel destination."
+  },
+  {
+    "name":"Siobhan O'Donovan",
+    "id":31,
+    "img_name":"Siobhan_O'Donovan",
+    "location":"Cape Town, South Africa",
+    "info":"I'm in the last 2 days (!!) of my postgraduate degree in Computer Science at the University of Cape Town. We've had some crazy protest action which meant that we could not complete our required work and all deadlines were pushed by 2 weeks. Luckily I have just enough time to submit my thesis and get on the plane to SF :) phew! I have an unhealthy obsession with nail polish. Like, seriously unhealthy. I have ± 60 bottles at the moment - it's my weakness. Also, I have a Maine Coon (https://en.wikipedia.org/wiki/Maine_Coon). It's very likely I'll show you way too many pictures of him over the course of the HR program."
+  },
+  {
+    "name":"Spencer Ochs",
+    "id":32,
+    "img_name":"Spencer_Ochs",
+    "location":"Berkeley, California",
+    "info":"I spent a few years at UCSD getting a Math degree, during which I took some basic CS classes, and some grad classes in AI and Machine Learning. However, I only focused on the more 'mathy' aspects of CS, and not the actual building of large programs and working systems. After graduating I tried out 'Data Science' for awhile, but I found that I enjoyed programming and thinking through engineering problems much more than running statistical analyses. So after messing around with a few different languages and technologies I decided to get serious about Software Engineering, so here I am. Things I'm interested in: Exercise and fitness (hiking, lifting weights, running) although I'm too lazy to do any of the 'quantified self' stuff. Listening to podcasts (Javascript Jabber, EconTalk, a16z). Personal finance and investing, and how they relate to 'effective altruism. Nerdy TV shows and books (science fiction and rational fiction mostly)"
+  },
+  {
+    "name":"Steven Law",
+    "id":33,
+    "img_name":"Steven_Law",
+    "location":"Castro Valley, California",
+    "info":"I graduated from Berkeley last summer. Majored in bioengineering and almost minored in theater, but unfortunately I ran out of time! During and after college I tutored and worked at an auto body shop. Though I don’t fence (the legal kind) nearly as much as I used to, I’m still fairly handy with a foil (the metallic, pointy kind). I spend a decent amount of time editing and proofing translations of Japanese TV shows, playing chess, and singing a cappella—not all at the same time, of course."
+  },
+  {
+    "name":"Tessa Serdar",
+    "id":34,
+    "img_name":"Tessa_Serdar",
+    "location":"San Francisco, California",
+    "info":"I have been working at Facebook exploring data for various new programs with some of our advertising partners. Right before we start I am taking a few weeks off to relax in Portland where I grew up. Christmas is my favorite holiday. I love camping/hiking and once camped in Tijuana for 14 days to help build houses. Donut & Pizza are my favorite foods. I am obsessed with dogs and am finally going to get one next year! "
+  },
+  {
+    "name":"Yoni Mekuria",
+    "id":35,
+    "img_name":"Yoni_Mekuria",
+    "location":"Denver, Colorado",
+    "info":"I have been working in Business Development/ Sales Roles most recently at a startup accelerator in Mountain View. I also have been randomly running a sports league for tech companies over the summer that my friends and I started as a side project. Before that, I worked in investment banking. I studied Electrical Engineering and Finance in college. Growing up in Colorado, I gained a deep  appreciation and love for the outdoors. Winter is my favorite season and I have a big passion for skiing(shralping, as I like to call it). I also love to camp, hike, bike and generally do anything outdoors. I love seeing music at the many eclectic venues of SF. I also like to experiment with cooking. I'm looking forward to hanging with all fo you soon!"
+  },
+  {
+    "name":"Zack Dean",
+    "id":36,
+    "img_name":"Zack_Dean",
+    "location":"Asheville, North Carolina",
+    "info":"For the past 6 months I have been teaching myself Javascript / exploring the West Coast in my trusty ’97 Honda CRV that I endearingly refer to as ‘Ol Red.  Before this wonderful chunk of free time, I worked as a Cheese Monger in the Mission, a lead installer at Solar City in Berkeley, and a Project manager at a small home energy company in North Carolina. I am very interested in music - both playing and appreciating - and I really enjoy spending time outside.  I am a member at Mission Cliffs, and climb pretty regularly so if any of you are in the area and are interested in going let me know!  Also if any of you would like to get a group together for some hiking in Point Reyes or the Marin Headlands, give me a shout - I can drive.  I think some pre bootcamp bonding could be good.  Either way, look forward to meeting all of you in person."
+  }
+]

@@ -13,8 +13,16 @@
 <div class="comments">
   
   <label for="enter-comment">Leave {{student.name.split(' ')[0]}} a message!</label><br>
-  <textarea id="enter-comment" cols="20" rows="3" placeholder="enter message here"></textarea>
+  <textarea id="enter-comment" cols="20" rows="3" placeholder="enter message here" ng-model="comment"></textarea>
   <button class="comment-button" ng-click="postMessage()">Post Message</button>
+
+  <div class="messages">
+    <ul class="comment-ul">
+      <li class="comment-li" ng-repeat="comment in comments">
+        <p><span><strong>{{comment.user}}:</strong></span> {{comment.comment}}</p>
+      </li>
+    </ul>
+  </div>
 
 </div>
 

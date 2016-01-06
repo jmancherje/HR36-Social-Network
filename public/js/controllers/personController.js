@@ -48,4 +48,17 @@ angular.module('app.person', [])
     }
   };
 
+  $scope.comments = [{"user":"Justin", "comment":"Hi dude"}, {"user":"Albert", "comment":"Hi dude"}, {"user":"Anthony", "comment":"Hi dude"}];
+
+  $scope.postMessage = function () {
+    if ($scope.comment.length === 0) {
+      return;
+    }
+    $scope.currentUser = sessionStorage.getItem('user');
+    var newComment = {
+      "user": $scope.currentUser,
+      "comment": $scope.comment
+    };
+  };
+
 });

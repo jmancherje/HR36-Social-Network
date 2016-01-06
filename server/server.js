@@ -8,6 +8,18 @@ var fs = require('fs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
+// var studentData = fs.readFileSync(__dirname + '/example.json');
+// console.log(studentData);
+// studentData = JSON.parse(studentData);
+// var newArr = [];
+// for (var i=0; i<studentData.length; i++) {
+//   studentData[i].id = studentData[i].id - 1;
+//   newArr.push(studentData[i]);
+// }
+// console.log(newArr);
+// fs.writeFileSync(__dirname + '/students.json', newArr);
+
+
 // DB schemas:
 var kittySchema = require('./models/kitty.js');
 var userSchema = require('./models/users.js');
